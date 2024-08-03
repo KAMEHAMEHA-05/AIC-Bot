@@ -12,7 +12,7 @@ from urllib.parse import quote_plus
 def setup_mongodb():
     username = quote_plus("----")  # Replace with your actual username
     password = quote_plus("----")  # Replace with your actual password
-    uri = f"mongodb+srv://{username}:{password}@discordbot-aic.easdzbj.mongodb.net/?retryWrites=true&w=majority&appName=DiscordBot-AIC"
+    uri = <database-uri>
 
     mongo_client = MongoClient(uri, server_api=ServerApi('1'))
     

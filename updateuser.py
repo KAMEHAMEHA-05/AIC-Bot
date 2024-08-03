@@ -10,8 +10,8 @@ from pymongo.server_api import ServerApi
 from urllib.parse import quote_plus
 
 def setup_mongodb():
-    username = quote_plus("Ishaan")  # Replace with your actual username
-    password = quote_plus("#D15C@aic")  # Replace with your actual password
+    username = quote_plus("----")  # Replace with your actual username
+    password = quote_plus("----")  # Replace with your actual password
     uri = f"mongodb+srv://{username}:{password}@discordbot-aic.easdzbj.mongodb.net/?retryWrites=true&w=majority&appName=DiscordBot-AIC"
 
     mongo_client = MongoClient(uri, server_api=ServerApi('1'))
